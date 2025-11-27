@@ -2,6 +2,12 @@
 
 本ドキュメントは、Next.js版サンプルプロジェクトの設計書をMarkdown形式で整理したものです。
 
+> **ソース情報**
+>
+> この設計書は [Fintan - spring-sample-project](https://github.com/Fintan-contents/spring-sample-project) の仕様・ソースコードから生成されました。
+>
+> オリジナルはSpring Boot版ですが、本ドキュメントではNext.js技術スタックに変換して記載しています。
+
 ---
 
 ## ドキュメント構成
