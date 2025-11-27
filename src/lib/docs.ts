@@ -65,6 +65,32 @@ export const docStructure = [
       { file: '04_テスト仕様書.md', title: 'テスト仕様書', order: 4 },
     ],
   },
+  {
+    id: 'auto-generated',
+    name: 'ソースコード自動生成',
+    path: 'ソースコード自動生成',
+    docs: [
+      { file: 'README.md', title: '自動生成について', order: 0 },
+      { file: '01_システム概要.md', title: 'システム概要', order: 1 },
+      { file: '02_画面設計書.md', title: '画面設計書', order: 2 },
+      { file: '03_API設計書.md', title: 'API設計書', order: 3 },
+      { file: '04_バッチ設計書.md', title: 'バッチ設計書', order: 4 },
+      { file: '05_データモデル設計書.md', title: 'データモデル設計書', order: 5 },
+      { file: '06_バリデーション設計書.md', title: 'バリデーション設計書', order: 6 },
+    ],
+  },
+  {
+    id: 'diff-analysis',
+    name: '差分分析',
+    path: '差分分析',
+    docs: [
+      { file: 'README.md', title: '差分分析について', order: 0 },
+      { file: '01_差分サマリー.md', title: '差分サマリー', order: 1 },
+      { file: '02_抽出可能項目.md', title: '抽出可能項目', order: 2 },
+      { file: '03_抽出不可項目.md', title: '抽出不可項目', order: 3 },
+      { file: '04_精度評価.md', title: '精度評価', order: 4 },
+    ],
+  },
 ];
 
 export function getAllDocSlugs(): { params: { slug: string[] } }[] {
